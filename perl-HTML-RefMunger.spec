@@ -6,7 +6,7 @@ Summary(pl):	Modu³ perla HTML::RefMunger
 Name:		perl-HTML-RefMunger
 Version:	0.01
 Release:	9
-License:	GPL
+License:	Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	9dbaf3b7a2c8d3115695485392c3f729
