@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	HTML
 %define	pnam	RefMunger
-Summary:	HTML-RefMunger perl module
-Summary(pl):	Modu³ perla HTML-RefMunger
+Summary:	HTML::RefMunger perl module
+Summary(pl):	Modu³ perla HTML::RefMunger
 Name:		perl-HTML-RefMunger
 Version:	0.01
 Release:	8
@@ -16,7 +16,7 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-HTML-RefMunger is a module that will parse HTML files for HREF and IMG
+HTML::RefMunger is a module that will parse HTML files for HREF and IMG
 tags and munge the links within them to suit various file naming
 conventions. Supported formats for conversion are:
 - MacOS - 32 character limit,
@@ -24,7 +24,7 @@ conventions. Supported formats for conversion are:
 - UNIX - Some older UNIX platforms have a 14-character limit.
 
 %description -l pl
-HTML-RefMunger jest modu³em, który wyszukuje w plikach HTML znaczniki
+HTML::RefMunger jest modu³em, który wyszukuje w plikach HTML znaczniki
 HREF i IMG i przekszta³ca zawarte w nich odno¶niki tak, by pasowa³y do
 okre¶lonych konwencji nazewnictwa. Wspierane formaty konwersji to:
 - MacOS - do 32 znaków,
