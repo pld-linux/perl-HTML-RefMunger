@@ -36,7 +36,7 @@ okre¶lonych konwencji nazewnictwa. Wspierane formaty konwersji to:
 %setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
-perl Makefile.PL
+%{__perl} Makefile.PL
 %{__make}
 
 %install
