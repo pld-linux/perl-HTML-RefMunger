@@ -38,7 +38,7 @@ okre¶lonych konwencji nazewnictwa. Wspierane formaty konwersji to:
 
 %build
 %{__perl} Makefile.PL \
-	INSTALLDIRS=vendor 
+	INSTALLDIRS=vendor
 %{__make}
 
 %install
