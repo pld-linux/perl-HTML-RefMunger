@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	HTML
 %define	pnam	RefMunger
-Summary:	HTML::RefMunger perl module
-Summary(pl):	Modu³ perla HTML::RefMunger
+Summary:	HTML::RefMunger - mangle HREF links within HTML files
+Summary(pl):	HTML::RefMunger - podmienianie odno¶ników HREF w plikach HTML 
 Name:		perl-HTML-RefMunger
 Version:	0.01
 Release:	9
