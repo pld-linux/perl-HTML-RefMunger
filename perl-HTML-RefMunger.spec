@@ -1,12 +1,11 @@
+%include	/usr/lib/rpm/macros.perl
 %define	pdir	HTML
 %define	pnam	RefMunger
-%include	/usr/lib/rpm/macros.perl
 Summary:	HTML-RefMunger perl module
 Summary(pl):	Modu³ perla HTML-RefMunger
 Name:		perl-HTML-RefMunger
 Version:	0.01
-Release:	7
-
+Release:	8
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -34,7 +33,7 @@ okre¶lonych konwencji nazewnictwa. Wspierane formaty konwersji to:
   14-znakowe nazwy plików.
 
 %prep
-%setup -q -n HTML-RefMunger-%{version}
+%setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
 perl Makefile.PL
