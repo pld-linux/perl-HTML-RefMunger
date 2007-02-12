@@ -2,7 +2,7 @@
 %define		pdir	HTML
 %define		pnam	RefMunger
 Summary:	HTML::RefMunger - mangle HREF links within HTML files
-Summary(pl):	HTML::RefMunger - podmienianie odno∂nikÛw HREF w plikach HTML 
+Summary(pl.UTF-8):   HTML::RefMunger - podmienianie odno≈õnik√≥w HREF w plikach HTML 
 Name:		perl-HTML-RefMunger
 Version:	0.01
 Release:	10
@@ -24,14 +24,14 @@ conventions. Supported formats for conversion are:
 - MS-DOS - 8.3 character limit,
 - UNIX - Some older UNIX platforms have a 14-character limit.
 
-%description -l pl
-HTML::RefMunger jest modu≥em, ktÛry wyszukuje w plikach HTML znaczniki
-HREF i IMG i przekszta≥ca zawarte w nich odno∂niki tak, by pasowa≥y do
-okre∂lonych konwencji nazewnictwa. Wspierane formaty konwersji to:
-- MacOS - do 32 znakÛw,
+%description -l pl.UTF-8
+HTML::RefMunger jest modu≈Çem, kt√≥ry wyszukuje w plikach HTML znaczniki
+HREF i IMG i przekszta≈Çca zawarte w nich odno≈õniki tak, by pasowa≈Çy do
+okre≈õlonych konwencji nazewnictwa. Wspierane formaty konwersji to:
+- MacOS - do 32 znak√≥w,
 - MS-DOS - format 8.3,
-- UNIX - niektÛre starsze platformy zezwalaj± na nie wiÍcej niø
-  14-znakowe nazwy plikÛw.
+- UNIX - niekt√≥re starsze platformy zezwalajƒÖ na nie wiƒôcej ni≈º
+  14-znakowe nazwy plik√≥w.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
