@@ -2,7 +2,7 @@
 %define		pdir	HTML
 %define		pnam	RefMunger
 Summary:	HTML::RefMunger - mangle HREF links within HTML files
-Summary(pl.UTF-8):   HTML::RefMunger - podmienianie odnośników HREF w plikach HTML 
+Summary(pl.UTF-8):	HTML::RefMunger - podmienianie odnośników HREF w plikach HTML 
 Name:		perl-HTML-RefMunger
 Version:	0.01
 Release:	10
