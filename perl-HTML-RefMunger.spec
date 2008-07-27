@@ -5,7 +5,7 @@ Summary:	HTML::RefMunger - mangle HREF links within HTML files
 Summary(pl.UTF-8):	HTML::RefMunger - podmienianie odnośników HREF w plikach HTML 
 Name:		perl-HTML-RefMunger
 Version:	0.01
-Release:	10
+Release:	11
 License:	Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
