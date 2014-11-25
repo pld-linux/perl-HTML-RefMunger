@@ -1,8 +1,8 @@
-%include	/usr/lib/rpm/macros.perl
 %define		pdir	HTML
 %define		pnam	RefMunger
+%include	/usr/lib/rpm/macros.perl
 Summary:	HTML::RefMunger - mangle HREF links within HTML files
-Summary(pl.UTF-8):	HTML::RefMunger - podmienianie odnośników HREF w plikach HTML 
+Summary(pl.UTF-8):	HTML::RefMunger - podmienianie odnośników HREF w plikach HTML
 Name:		perl-HTML-RefMunger
 Version:	0.01
 Release:	11
@@ -10,15 +10,16 @@ License:	Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	9dbaf3b7a2c8d3115695485392c3f729
-BuildRequires:	rpm-perlprov >= 4.1-13
-BuildRequires:	perl-devel >= 1:5.8.0
+URL:		http://search.cpan.org/dist/HTML-RefMunger/
 BuildRequires:	perl-HTML-Parser
+BuildRequires:	perl-devel >= 1:5.8.0
+BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-HTML::RefMunger is a module that will parse HTML files for HREF and IMG
-tags and munge the links within them to suit various file naming
+HTML::RefMunger is a module that will parse HTML files for HREF and
+IMG tags and munge the links within them to suit various file naming
 conventions. Supported formats for conversion are:
 - MacOS - 32 character limit,
 - MS-DOS - 8.3 character limit,
